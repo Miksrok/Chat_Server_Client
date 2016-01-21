@@ -127,7 +127,7 @@ public class ChatClient {
 
 			try {
 
-				while (true/*!isInterrupted()*/) {
+				while (true) {
 					byte[] b = new byte[1024];
 					int bytesRecieve = in.read(b);
 					String answer = new String(b, 0, bytesRecieve);
