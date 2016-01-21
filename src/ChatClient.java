@@ -156,7 +156,7 @@ public class ChatClient {
 	public static void main(String[] args) {
 		ChatClient gui = new ChatClient();
 		gui.lF();
-		//gui.setDaemon(true);
+		
 		
 
 	}
